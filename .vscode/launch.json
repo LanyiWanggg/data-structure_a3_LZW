@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "compress",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": [
+                "-",
+                "r",
+                "<",
+                "medium.txt",
+                ">",
+                "medium.lzw"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryStdIn",
+            "request": "launch",
+            "mainClass": "BinaryStdIn",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryStdOut",
+            "request": "launch",
+            "mainClass": "BinaryStdOut",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch LZW",
+            "request": "launch",
+            "mainClass": "LZW",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdIn",
+            "request": "launch",
+            "mainClass": "StdIn",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdOut",
+            "request": "launch",
+            "mainClass": "StdOut",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        },
+        {
+            "type": "java",
+            "name": "Launch TST",
+            "request": "launch",
+            "mainClass": "TST",
+            "projectName": "cs1501-a3-LanyiWanggg_a440c6a6"
+        }
+    ]
+}
